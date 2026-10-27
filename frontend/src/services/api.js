@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const api = axios.create({ baseURL: "/api", timeout: 90000 });
+const api = axios.create({ baseURL: "https://intellichurn.onrender.com/api", timeout: 90000 });
 
 export async function getDashboard() {
   return (await api.get("/dashboard")).data;
