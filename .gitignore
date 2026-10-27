@@ -7,8 +7,8 @@ dist/
 *.py[cod]
 .venv/
 venv/
-*.joblib
-*.pkl
+#*.joblib
+#*.pkl
 backend/*.db
 backend/*.sqlite
 frontend/node_modules/
