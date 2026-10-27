@@ -1,0 +1,17 @@
+node_modules/
+.env
+**/.env
+!.env.example
+__pycache__/
+dist/
+*.py[cod]
+.venv/
+venv/
+*.joblib
+*.pkl
+backend/*.db
+backend/*.sqlite
+frontend/node_modules/
+frontend/dist/
+.pytest_cache/
+.coverage
